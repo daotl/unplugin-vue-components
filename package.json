@@ -76,10 +76,14 @@
   },
   "peerDependencies": {
     "@babel/parser": "^7.15.8",
+    "@nuxt/kit": "^3.0.0",
     "vue": "2 || 3"
   },
   "peerDependenciesMeta": {
     "@babel/parser": {
+      "optional": true
+    },
+    "@nuxt/kit": {
       "optional": true
     }
   },
@@ -99,6 +103,8 @@
     "@antfu/eslint-config": "^0.33.1",
     "@babel/parser": "^7.20.5",
     "@babel/types": "^7.20.5",
+    "@nuxt/kit": "^3.0.0",
+    "@nuxt/schema": "^3.0.0",
     "@types/debug": "^4.1.7",
     "@types/minimatch": "^5.1.2",
     "@types/node": "^18.11.13",
